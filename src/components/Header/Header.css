@@ -1,0 +1,32 @@
+.header {
+    background-color: #1C2B35;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.header a {
+    color: #FFFFFF;
+    padding-left: 32px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.header a:hover {
+    color: orange;
+}
+
+@media screen and (min-width: 400px) {
+    .header {
+        background-color: #1C2B35;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+}
